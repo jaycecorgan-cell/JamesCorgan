@@ -1,0 +1,40 @@
+div {
+  color: white;
+  font-family: Century Gothic;
+}
+
+/* 5. Add space inside the header so the text isn’t touching the edge. */
+#header {              
+  background-color: lightgreen;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+/* 6. Do the same for the footer, but add margin above instead. */
+#footer {   
+  background-color: thistle;
+  padding: 2em;
+  margin-top: 2em;
+}
+
+/* 8. Turn the wrapper you created in step 7 into a flex container. */
+#flex {
+  display: two_columns;
+}
+
+/* 9. Set each flex property to an integer corresponding to the proportion of available width you want each column to take. */
+#left-column {
+  background-color: powderblue;
+  flex: _;
+}
+
+#right-column {
+  background-color: aqua;
+  flex: _;
+}
+
+/* 10. Add some padding inside both columns for readability. */
+#left-column,
+#right-column {
+  padding: 1em;
+}
